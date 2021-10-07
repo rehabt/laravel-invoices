@@ -35,6 +35,8 @@ return [
     'insurer'         => 'Insurer',
     'premium'         => 'Premium',
     'excess'          => 'Excess',
+    'excess_1'        => 'Excess 1',
+    'excess_2'        => 'Excess 2',
     'coverage'        => 'Coverage',
     'remarks'         => 'Remarks',
 ];

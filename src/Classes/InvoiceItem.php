@@ -29,6 +29,16 @@ class InvoiceItem
     /**
      * @var string
      */
+    public $excess_1;
+
+    /**
+     * @var string
+     */
+    public $excess_2;
+
+    /**
+     * @var string
+     */
     public $coverage;
 
     /**
@@ -115,6 +125,28 @@ class InvoiceItem
     public function excess(string $excess)
     {
         $this->excess = $excess;
+
+        return $this;
+    }
+
+    /**
+     * @param string $excess_1
+     * @return $this
+     */
+    public function excess_1(string $excess_1)
+    {
+        $this->excess_1 = $excess_1;
+
+        return $this;
+    }
+
+    /**
+     * @param string $excess_2
+     * @return $this
+     */
+    public function excess_2(string $excess_2)
+    {
+        $this->excess_2 = $excess_2;
 
         return $this;
     }
